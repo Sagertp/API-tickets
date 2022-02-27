@@ -1,0 +1,10 @@
+curl -d '{"email":"usuario1@ticketsapp.com","password":"qwerty*-1"}' -H 'Content-Type: application/json' localhost:4000/login
+
+
+
+curl -d '{"email":"usuario1@ticketsapp.com","password":"qwerty*-1"}' -H 'Content-Type: application/json' localhost:4000/login
+
+
+curl -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF91c2VyIjoyLCJpZF90eXBlX3VzZXIiOjIsIm5hbWUiOiJVc3VhcmlvIDEiLCJlbWFpbCI6InVzdWFyaW8xQHRpY2tldHNhcHAuY29tIiwiaWF0IjoxNjQ1MDQyODMxLCJleHAiOjE2NDU2NDc2MzF9.4xqkUfUIKo312Cb7-9ckHUTj4sTLWlquouk_kVqMerA' localhost:4000/orders
+
+

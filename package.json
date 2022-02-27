@@ -1,0 +1,35 @@
+{
+  "name": "newback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && node ./src/dist/app.js",
+    "start": "node ./src/dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.19.1",
+    "class-validator": "0.13.2",
+    "cors": "2.8.5",
+    "dotenv": "12.0.3",
+    "express": "4.17.2",
+    "jsonwebtoken": "8.5.1",
+    "mysql2": "2.3.3"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "2.4.2",
+    "@types/body-parser": "1.19.2",
+    "@types/cors": "2.8.12",
+    "@types/dotenv": "8.2.0",
+    "@types/express": "4.17.13",
+    "@types/jsonwebtoken": "8.5.8",
+    "@types/mysql": "2.15.20",
+    "@types/node": "17.0.8",
+    "typescript": "4.5.4"
+  }
+}
